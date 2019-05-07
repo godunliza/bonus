@@ -1,0 +1,36 @@
+.card_pic {
+  width: 29.39453125vw; }
+
+.card_item_desc {
+  width: 26.26953125vw;
+  padding: 0 1.5625vw 0 1.5625vw; }
+
+.card_item_pic {
+  width: 29.39453125vw;
+  grid-template-rows: 3.51563vw 2.34375vw 8.20313vw 1fr; }
+
+.slick-slide {
+  width: 31.34765625vw; }
+
+.footer_cards {
+  flex-wrap: wrap;
+  margin-left: 3.90625%; }
+
+.footer_cards_item_left_pic {
+  width: 18.75%;
+  padding: 0.5859375vw 0 0.5859375vw 0; }
+
+.footer_cards_item {
+  width: 26.016260162601626016260162601626%;
+  margin-right: 6.7073170731707317073170731707317%;
+  margin-left: 0; }
+
+.footer_cards_item_input {
+  padding-top: 5.6644386541293757788603149427892%;
+  padding-bottom: 5.6644386541293757788603149427892%; }
+
+.footer_cards_item_form button {
+  border: 0;
+  outline: 0;
+  height: 4.6875vw;
+  border-radius: 0 8px 8px 0; }

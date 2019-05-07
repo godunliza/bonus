@@ -1,0 +1,141 @@
+.header_ob{
+    display: flex;
+   justify-content: space-between;
+   background-color:$white;
+}
+.header_menu_gumb,.header_find{
+    margin-left: 16px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 16px;
+}
+.header_logo
+{
+    margin-top: 6px;
+}
+
+
+/*Find*/
+.header_find-form
+{
+    margin: 0;
+    background-color: #fff;
+    margin-left: 16px;
+    .hr{
+        margin-bottom: 0;
+    }
+    
+   
+}
+.header_hide{
+    width: 0%;
+    height: 0;
+    overflow: hidden;
+    background-color: transparent;
+
+}
+
+.header_find-form_inp_write{
+    outline: none;
+    border: none;
+}
+.header_find-form_inp{
+    width: 100%;
+  
+   
+   
+    
+}
+.header_find-form_inp_close{
+    //width: 100%;
+    outline: none;
+    border: none;
+    -webkit-mask-image: url(../../icons/X.svg);
+    background-position: right;
+    width: 20px;
+    height: 20px;
+    background-color: $black-60;
+    margin-left: 270px;
+    margin-top: 18px;
+  
+
+
+}
+.header_find-form_inp_write{
+    height: 36px;
+    font-size: 24px;
+   
+}
+ .header_find-form_select {
+     height: 56px;
+    font-family: OpenSans-Regular;
+    line-height: 1.43;
+    color: $black-60;
+    letter-spacing: 0.3px;
+     font-size: 14px;
+     width: 207px;
+     display: flex;
+     justify-content: space-between;
+     border-right: 1px solid rgba(0, 0, 0, 0.12);
+    
+     
+    align-items: center;
+ }
+ select{
+     width: 61px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    position: relative;
+    outline: none;
+    padding: 5px;
+    
+    background-image: url("../../icons/findtriangle.svg") ;
+   background-repeat: no-repeat;
+   background-position: right;
+    background-size: 8px 6px;
+
+    
+    
+    }
+ .header_find-form_inp_btn{
+    border: none;
+   
+    outline: none;
+    -webkit-mask: url(../../icons/findicon1.svg);
+    background-color: $black-90;
+    width: 20px;
+    height: 20px;
+    margin-right:16px;
+    
+
+    
+ }
+ .header_find-form_obertka{
+     display: flex;
+     
+ }
+ input[type=radio] {
+    
+            display: none;
+    
+        }
+.header_find-form_toggle
+{
+    display: flex;
+}
+.header_find-form_inp_btn_label{
+    display: flex;
+    background-color: $black-90;
+    width: 20px;
+    height: 20px;
+    margin: 16px;
+    &:first-child{
+        -webkit-mask: url(../../icons/findicon2.svg);
+    }
+    &:nth-child(3){
+        -webkit-mask: url(../../icons/findicon3.svg);
+
+    }
+
+}

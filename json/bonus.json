@@ -1,0 +1,88 @@
+[
+
+
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic.png",
+        "daylast":"12дней",
+        "category":"ЗДОРОВЬЕ",
+        "name":" Сеть аптек \"Акцент здоровья\"",
+        "addr":" ул.Набережная Победы 44  Пр. Пра...",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    },
+    {
+        "bonusnow":"15%",
+        "bonuslast":"3%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic2.png",
+        "daylast":"12дней",
+        "category":"ДРУГОЕ",
+        "name":" Магазин — все для животных «Зоомаркет»",
+        "addr":"Ул. Пастера 7",
+        "timestart":" 21.11.17 ",
+        "timeend":"30.09.18",
+        "members":"759"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic.png",
+        "daylast":"12дней",
+        "category":"ПРОДУКТЫ",
+        "name":"Вкусный магазин «Сладости»",
+        "addr":" Ул. Пушкина 55",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic.png",
+        "daylast":"12дней",
+        "category":"ВНЕШНИЙ ВИД",
+        "name":"Магазин спортивной экипировки «Dnepr Sport»",
+        "addr":" Ул. Калиновая 8Д",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"205"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic.png",
+        "daylast":"12дней",
+        "category":"ПРОДУКТЫ",
+        "name":"Магазин спортивной экипировки «Dnepr Sport»",
+        "addr":" Ул. Калиновая 8Д",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"205"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/strawberry.png",
+        "urlpic":"img/pic.png",
+        "daylast":"12дней",
+        "category":"ЗДОРОВЬЕ",
+        "name":" Сеть аптек \"Акцент здоровья\"",
+        "addr":" ул.Набережная Победы 44  Пр. Пра...",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    }
+]

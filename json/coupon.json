@@ -1,0 +1,60 @@
+[
+
+
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/coupon.svg",
+        "urlpic":"img/pic2.png",
+        "daylast":"1 день 14 ч 59 мин",
+        "category":"ПОЕСТЬ",
+        "name":"На все меню кухни в пив-баре «Кружка»",
+        "addr":" Пр. Металургов 15А ",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/coupon.svg",
+        "urlpic":"img/pic2.png",
+        "daylast":"1 день 14 ч 59 мин",
+        "category":"ТОВАРЫ",
+        "name":"На школьную форму в магазине «Машуля»",
+        "addr":"Пр. Металургов 15А ",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/coupon.svg",
+        "urlpic":"img/pic.png",
+        "daylast":"1 день 14 ч 59 мин",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"На 2 часа игры в боулинг в РЦ «Капиталистъ",
+        "addr":"Пр. Соборный 92",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    },
+    {
+        "bonusnow":"20%",
+        "bonuslast":"5%",
+        "urlicon":"icons/coupon.svg",
+        "urlpic":"img/pic2.png",
+        "daylast":"1 день 14 ч 59 мин",
+        "category":"РАЗВЛЕЧЕНИЯ",
+        "name":"На игры в виртуальной реальности от «Rental Center»",
+        "addr":"Пр. Металургов 15А ",
+        "timestart":"31.08.18",
+        "timeend":"20.09.18",
+        "members":"127"
+
+    }
+]

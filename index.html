@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/styles_320.css">
+    <link rel="stylesheet" href="dist/styles_768.css" media="(min-width: 768px)">
+    <link rel="stylesheet" href="dist/styles_1024.css" media="(min-width: 1024px)">
+
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.scss">    
+
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header ">
+       <div class="header_ob ">
+        <nav class="header_menu ">
+        <img src="icons/menu.svg" alt="menu" class="header_menu_gumb">
+    </nav>
+        <div class="header_logo ">
+        <img src="icons/logo.svg" alt="menu">
+        </div>
+        <div class="header_find ">
+            <img src="icons/find1.svg" alt="menu">
+        </div>
+    </div>
+    <form action="get" class="header_find-form header_hide">
+        <div class="header_find-form_inp">
+        <input type="button" class="header_find-form_inp_close">
+        <input type="text" placeholder="Поиск"class="header_find-form_inp_write">
+        <hr class="hr">
+    </div>
+        
+<div class="header_find-form_obertka">
+        <div class="header_find-form_select ">
+        <select name="bon" >
+            <option value="Всё">Всё</option>
+            <option value="Акции">Акции</option>
+            <option value="Купоны">Купоны</option>
+            <option value="Партнеры">Партнеры</option>
+        </select>
+        <input type="button" class="header_find-form_inp_btn">
+        </div>
+        <div class="header_find-form_toggle">
+            <label for="radio1" class="header_find-form_inp_btn_label"></label>
+            <input type="radio" name="radio1" class="header_find-form_inp_btn_radio">
+            <label for="radio1" class="header_find-form_inp_btn_label"></label>
+            <input type="radio" name="radio2" class="header_find-form_inp_btn_radio">
+        </div>
+    </div>
+    </form>
+
+    </header>
+    <main>
+
+    <!--Акции-->
+
+   <section class="discount">
+       
+<div class="card_zag"> 
+    <h4 class="zag">Акции</h4>
+    <a href="#" class="watchall">См. все</a>
+</div> 
+    <h5 class="desc">Получите больше бонусов пока действует акция</h5>
+    <hr class="hr">
+
+    <div class="slayder" id="slayderbon">
+
+    
+    
+            </div>
+
+        
+     <!--Купоны-->
+    <section class="coupon">
+    <div class="card_zag">
+     <h4 class="zag">Купоны</h4>
+    <a href="#" class="watchall">См.все</a>
+    </div>
+     <h5 class="desc">Получите скидку на все товары и услуги</h5>
+     <hr class="hr">
+
+     <div class="slayder"  id="slaydercoup">
+            
+           
+        </div>
+    </section>
+    <!--Партнеры-->
+    
+            <section class="partners"> 
+    
+                <div class="card_zag">
+                    <h4 class="zag">Партнеры</h4>
+                    <a href="#" class="watchall">См.все</a>
+                </div>
+                    <h5 class="desc">Получайте бонусы до 20% в сети партнеров программы</h5>
+                    <hr class="hr">
+                    
+                    <div class="slayder" id="slayderpart">
+                            
+                       
+                    </div>
+                    </section>
+                    
+
+    <!--Карта-->
+<section class="map">
+<div class="card_zag">
+        <h4 class="zag">Карта</h4>
+        <a href="#" class="watchall">Больше</a>
+    </div>
+        <nav class="map_nav">
+            <ul class="map_nav_list">
+                <li class=" nav_active"> Все точки</li>
+                <li>Электроника</li>
+                <li>Еще <img src="icons/triangle.svg" alt="">
+                    <!--ul>li-->
+                </li>
+            </ul>
+        </nav>
+        <hr class="hr">
+        <div class="map_block" id="map">
+
+        </div>
+</section>
+    <!--Чаво-->
+<section class="question">
+    <div class="card_zag">
+        <h4 class="zag">ЧаВо</h4>
+       
+        <a href="#" class="watchall">См. все</a>
+        </div>
+        <hr class="hr">
+<div class="question_obertka">
+        <section class="question_block">
+        <h6>Что такое «Бонус Плюс»?</h6>
+        <p class="question_block_answear">
+            Каждый раз при оплате картой ПриватБанка 
+            часть потраченных денег попадает на ваш счет
+             «Бонус Плюс», с которого вы можете оплачивать 
+             другие покупки.
+        </p>
+    </section>
+    
+    <section class="question_block">
+        <h6 class="question_block_zag">
+            Можно ли снять деньги наличными со счета «Бонус Плюс» или перевести их на другой счет?
+        </h6>
+        <p class="question_answear">Нет. Со счета «Бонус Плюс» операции снятия наличных, 
+            безналичного перевода либо перечисления на основной или любой другой счет невозможны.</p>
+       <br>
+            <p class="question_block_answear">
+                Средства с этого счета можно использовать только для оплаты 
+                товаров и услуг в магазинах участников программы.
+        </p>
+    </section>
+</div>
+</section>
+<hr class="hr">
+    </main>
+    
+    <footer>
+        
+        <ul class="footer_links ">
+           <li class="footer_links_item">
+               <div class="footer_links_item_left"> <figure class="footer_links_item_left_pic bg-black"><img src="icons/google-play.svg" alt="google-play"></figure>
+               Скачать с Google Play</div>
+               <a href="#" class="footer_links_item_go">
+               <img src="icons/arr.svg" alt="pic">
+                </a>
+           </li>
+           <hr class="hr">
+           <li class="footer_links_item">
+               <div class="footer_links_item_left">
+               <figure class="footer_links_item_left_pic bg-black"><img src="icons/app-store.svg" alt="app-store"></figure>
+               Скачать с App Store</div>
+               <a href="#" class="footer_links_item_go">
+                    <img src="icons/arr.svg" alt="pic">
+                     </a>
+           </li>
+           <hr class="hr">
+
+           <li class="footer_links_item">
+                <div class="footer_links_item_left">
+               <figure class="footer_links_item_left_pic bg-lilo"><img src="icons/viber.svg" alt="viber"></figure>
+               Мы в Viber</div>
+               <a href="#" class="footer_links_item_go">
+                    <img src="icons/arr.svg" alt="pic">
+                     </a>
+           </li>
+           <hr class="hr">
+
+           <li class="footer_links_item">
+                <div class="footer_links_item_left">
+               <figure class="footer_links_item_left_pic bg-blue"><img src="icons/telegram.svg" alt="telegram"></figure>
+               Мы в Telegram</div>
+               <a href="#" class="footer_links_item_go">
+                    <img src="icons/arr.svg" alt="pic">
+                     </a>
+           </li>
+           <hr class="hr">
+
+           <li class="footer_links_item">
+                <div class="footer_links_item_left">
+               <figure class="footer_links_item_left_pic bg-green"><img src="icons/email.svg" alt="email"></figure>
+               Подписаться на новости</div>
+               <a href="#" class="footer_links_item_go">
+                    <img src="icons/arr.svg" alt="pic">
+                     </a>
+           </li>
+           <hr class="hr">
+
+           <li class="footer_links_item">
+                <div class="footer_links_item_left">
+               <figure class="footer_links_item_left_pic bg-green"><img src="icons/login.svg" alt="login"></figure>
+               Вход для партнеров</div>
+               <a href="#" class="footer_links_item_go">
+                    <img src="icons/arr.svg" alt="pic">
+                     </a>
+           </li>
+           <hr class="hr">
+        </ul>
+
+
+
+        <div class="footer_cards">
+            
+            <section class="footer_cards_item">
+                <h6 class="footer_cards_item_zag">Скачать приложение</h6>
+                <div class="footer_cards_item_links">
+                 <figure class="footer_cards_item_left_pic bg-black"><img src="icons/google-play.svg" alt="google-play"></figure>  
+                 <figure class="footer_cards_item_left_pic bg-black"><img src="icons/app-store.svg" alt="google-play"></figure>  
+                </div>
+            </section>
+           
+            
+
+            
+           
+                <section class="footer_cards_item">
+                        <h6 class="footer_cards_item_zag">Мы в мессенджерах</h6>
+                        <div class="footer_cards_item_links">
+                         <figure class="footer_cards_item_left_pic bg-blue"><img src="icons/telegram.svg" alt="google-play"></figure>  
+                         <figure class="footer_cards_item_left_pic bg-lilo"><img src="icons/viber.svg" alt="google-play"></figure>  
+                        </div>
+                    </section>
+
+                    <section class="footer_cards_item">
+                        <h6 class="footer_cards_item_zag">Подписка на новости</h6>
+                        
+                        <form action="get" class="footer_cards_item_form">
+    
+                            <div class="footer_cards_item_input">
+                            <input type="mail" placeholder="hello@email.com" >
+                        </div>  
+                            <button class="bg-green"> <figure ><img src="icons/arrow.svg" alt="google-play"></figure>  
+                            </button>
+                   
+
+                        </form>
+                        </section>
+                        <section class="footer_cards_item">
+                            <h6 class="footer_cards_item_zag">Вход для партнеров</h6>
+                            
+                            <form action="get" class="footer_cards_item_form">
+                                    <div class="footer_cards_item_input">
+                                <input type="phone" placeholder="+380" ></div>
+                                <button class="bg-green"> <figure ><img src="icons/arrow.svg" alt="google-play"></figure>  
+                                </button>
+                            </form>
+                              
+            
+                        </section>
+                  
+                    
+
+            
+       </div>
+
+        <hr class="hr">
+
+
+
+        <div class="footer_end">
+                © 2018 ПриватБанк
+        </div>
+    </footer>
+
+<!--CardTemplate for bonus,coupon-->
+    <template id="item">
+        <div class="card_item">
+            <div class="card_item_pic">
+                <section class="card_item_pic_bonus">
+                    <img src="" alt="strawberry" class="card_item_pic_bonus_icon">
+                    <h6></h6>
+                </section>
+                <div class="card_item_pic_last_bonus">
+                <s >
+                        
+                </s>
+                </div>  
+                <picture class="card_item_pic_src">
+                    <img src="" alt="pic" class="card_pic">
+
+                </picture>
+                <div class="card_item_pic_time">
+                    <p class="card_item_pic_time_text">
+                       
+                            
+                    </p>
+                       
+                </div>
+            </div>
+            
+            <div class="card_item_desc">
+                
+                <p class="card_item_desc_categ">
+                </p>
+            
+                <h6 class="card_item_desc_zag">
+                    
+                </h6>
+                <address class="card_item_desc_addr">
+                    
+                </address>
+                <hr class="hr">
+                <p class="card_item_desc_time">
+                    Действует:
+                </p>
+            
+                <div class="card_item_desc_bottom">
+                    <p class="card_item_desc_bottom_buyers">Участников </p>
+                    <button class="card_item_desc_bottom_btn">Учавствовать</button>
+                </div>
+            </div>
+        </div>
+   <!-- </div>
+    </section>-->
+    </template>
+
+<!--CardTemplate for partners-->
+<template id="itempart">
+        <div class="card_item">              
+                <div class="card_item_desc">
+                 <div class="card_item_desc_pic">
+                     <div class="card_item_desc_pic_bonus">
+                        <img src="icons/strawberry.png" alt="strawberry" class="card_item_desc_pic_bonus_icon">
+                            10%
+                     </div>
+                    <div class="card_item_desc_tel">
+                        +380 (63) 123 45 67
+                    </div>
+                                           
+                </div>
+                 <p class="card_item_desc_categ">
+                    РЕСТОРАНЫ И КАФЕ
+                </p>
+                                      
+                <h6 class="card_item_desc_zag">
+                    Кофейня и соляная комната «Соляная Пещера»
+                </h6>
+                 
+                 <address class="card_item_desc_addr addr-partner">
+                    Пр. Кирова 117
+                </address>
+                                           
+                </div>
+            </div>
+
+
+
+
+</template>
+
+
+
+<script>
+
+var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 48.454947,lng:  34.971859 },
+          zoom: 16
+        });
+        var marker = new google.maps.Marker({
+            map: map,
+            position: { lat: 48.454015, lng:  34.971451 },
+            
+        });
+
+      }
+</script>
+
+<!--<script src="http://yastatic.net/jquery/2.1.3/jquery.min.js"></script>-->
+
+
+
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+
+<script src="slick-1.8.1/slick/slick.min.js"></script>
+<script src="dist/main.js"></script>
+<script  async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBuW3cKxDrqxawE-RlIao19ITJJv25V_PE&callback=initMap"
+type="text/javascript"></script>
+</body>
+</html>
